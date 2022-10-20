@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "schoolspace-client": {
+    "portfolio-me": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/schoolspace-client",
+            "outputPath": "dist/portfolio-me",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -71,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "schoolspace-client:build:production"
+              "browserTarget": "portfolio-me:build:production"
             },
             "development": {
-              "browserTarget": "schoolspace-client:build:development"
+              "browserTarget": "portfolio-me:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "schoolspace-client:build"
+            "browserTarget": "portfolio-me:build"
           }
         },
         "test": {
@@ -107,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "schoolspace-client"
+  "defaultProject": "portfolio-me"
 }
