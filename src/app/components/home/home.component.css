@@ -1,0 +1,229 @@
+.banner{
+    width: 100%;
+    /* height: 500px; */
+    background: black;
+    /* background-image: linear-gradient(54deg,rgba(45,45,45,.95) 34%,rgba(45,45,45,.95)),url('../../../assets/img/avatar1.jpg'); */
+    background-image: linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95)),url('../../../assets/img/avatar1.jpg');
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    margin-bottom: 40px;
+    
+}
+
+
+
+.menu{
+    position: fixed;
+    padding: 0;
+    height: 0;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 70px;
+    transition: all .5s;
+}
+.menu .menu-wrapper{
+    z-index: 1;
+    margin-top: 50px;
+    transition: all .3s;
+}
+
+.menu .menu-wrapper .nav{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Roboto Mono,monospace;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+ul{
+    list-style: none;
+    box-sizing: inherit;
+}
+li{
+    display: inline-block;
+}
+a{
+    transition: all .3s;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav ul li a{
+    padding-right: 50px;
+}
+.menu .menu-wrapper .nav a{
+    color: #fff;
+    opacity: 1;
+}
+
+.personal-profile{
+    color: #fff;
+    font-family: Roboto Mono,monospace;
+    padding-top: 90px;
+}
+.personal-profile-avatar{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    
+}
+.personal-profile .personal-profile-avatar img{
+    border-radius: 5px;
+    box-shadow: 0 0 27px rgb(96 96 96 / 34%);
+    width: 90%;
+    height: 380px;
+    /* -o-object-fit: cover; */
+    object-fit: cover;
+    margin-top: 10px;
+    position: relative;
+    top: 40px;
+}
+
+.personal-profile .personal-profile__name {
+    font-size: 44px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.personal-profile .personal-profile__work {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.personal-profile .personal-profile__contacts {
+    margin-bottom: 20px;
+}
+.contact-list {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Roboto Mono,monospace;
+}
+dl {
+    margin-top: 0;
+}
+dl {
+    margin-bottom: 1rem;
+}
+
+.contact-list.contact-list__opacity-titles dt {
+    opacity: .4;
+}
+.contact-list dt {
+    float: left;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.contact-list dd {
+    padding-left: 100px;
+    margin-bottom: 15px;
+}
+dd {
+    /* margin-bottom: 0.5rem; */
+    margin-left: 0;
+}
+.contact-list dd a {
+    color: #fff;
+}
+.section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid lightgrey;
+}
+.section .section__title{
+    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: Roboto Mono,monospace;
+}
+.section .section__description {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+.site-btn {
+    background-color: #6d56c1;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 15px;
+    min-width: 170px;
+    text-align: center;
+    display: inline-block;
+    color: #fff!important;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+
+
+/* 
+Section Resume
+*/
+.resume-list {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-list .resume-list_title {
+    font-family: Roboto Mono,monospace;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #999;
+    margin-bottom: 40px;
+}
+.resume-list .resume-list__block {
+    border-left: 2px solid #6d56c1;
+    padding-left: 25px;
+    padding-bottom: 50px;
+}
+.resume-list .resume-list__block-title {
+    text-transform: uppercase;
+    color: #6d56c1;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Roboto Mono,monospace;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.resume-list .resume-list__block-title a{
+    color: #6d56c1
+}
+.resume-list .resume-list__block-title p{
+    margin: 0;
+}
+
+.resume-list .resume-list__block-date {
+    font-family: Inconsolata,monospace;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+    padding-bottom: 10px;
+}
+.resume-list .resume-list__block:before {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #6d56c1;
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    background-color: #fff;
+    left: 10px;
+}
+.resume-list .resume-list__block {
+    border-left: 2px solid #6d56c1;
+    padding-left: 25px;
+    padding-bottom: 50px;
+}
