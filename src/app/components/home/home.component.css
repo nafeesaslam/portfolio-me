@@ -147,6 +147,7 @@ dd {
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 25px;
+    line-height: 30px;
 }
 .site-btn {
     background-color: #6d56c1;
@@ -164,7 +165,11 @@ dd {
     overflow: hidden;
 }
 
-
+.site-btn img {
+    height: 14px;
+    margin-top: -5px;
+    margin-right: 5px;
+}
 
 /* 
 Section Resume
@@ -188,6 +193,7 @@ Section Resume
     border-left: 2px solid #6d56c1;
     padding-left: 25px;
     padding-bottom: 50px;
+    margin-top: -20px;
 }
 .resume-list .resume-list__block-title {
     text-transform: uppercase;
@@ -226,4 +232,5 @@ Section Resume
     border-left: 2px solid #6d56c1;
     padding-left: 25px;
     padding-bottom: 50px;
+    margin-top: -20px;
 }

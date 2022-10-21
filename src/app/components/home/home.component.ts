@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Route, Router } from '@angular/router';
 import { DatetoagePipe } from 'src/app/pipes/datetoage.pipe';
+import { single } from './data'
 
 @Component({
   selector: 'app-home',
@@ -10,7 +11,9 @@ import { DatetoagePipe } from 'src/app/pipes/datetoage.pipe';
 export class HomeComponent implements OnInit {
 
   todaysdate = new Date()
-  constructor(private router:Router) { }
+  constructor(private router:Router) { 
+    
+  }
 
   ngOnInit(): void {
   }
